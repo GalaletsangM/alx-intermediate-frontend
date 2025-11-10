@@ -1,0 +1,4 @@
+installing SASS
+
+use the following command
+npm install sass -v 3.7.4
