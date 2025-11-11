@@ -1,0 +1,11 @@
+@mixin set_margins($value){
+    margin-left: $value;
+    margin-right: $value;
+}
+
+body {
+    @include set_margins(10px);
+}
+div {
+    @include set_margins(15px);
+}
